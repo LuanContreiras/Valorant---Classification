@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <div class="addTeam">
+    <input id="teamName" placeholder="Insira o nome do time">
+    <input id="teamIcon" placeholder="Insira o endereço do icone do time">
+    <button class="button" onClick="adicionarTime()">Adicionar</button>
+  </div>
+  <h1>Tabela de classificação</h1>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Ícone</th>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="2">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+    </tbody>
+  </table>
+  <div class="bZerar">
+    <button class="button" onClick="zeraPontos()">Zera pontos</button>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

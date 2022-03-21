@@ -1,0 +1,122 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 1080px;
+  background-image: url("https://i.pinimg.com/originals/9d/ee/07/9dee0784390c4d041be8473887a304cc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: center;
+  color: #ff4655;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-color: #ff4655;
+}
+th,
+tr,
+td {
+  background: white;
+  border: solid 1px #232b2b;
+  color: #232b2b;
+  font-weight: bold;
+}
+
+input {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  width: 350px;
+  height: 34px;
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-color: #ff4655;
+  border-radius: 5px;
+  background-color: #0e1921;
+}
+input:hover {
+  border: 1px solid #ff6673;
+  box-shadow: 1px 1px 5px 1px #ff6673;
+}
+
+.button {
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  background: #ff4655;
+}
+.button:hover {
+  box-shadow: 1px 1px 5px 1px #ff6673;
+}
+.button:active {
+  transition: 0s;
+  background-color: #c33a45;
+  transform: translateY(2px);
+}
+
+.actions {
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #ff4655;
+}
+.actions:hover {
+  box-shadow: 1px 1px 5px 1px #ff6673;
+}
+.actions:active {
+  transition: 0s;
+  background-color: #c33a45;
+  transform: translateY(2px);
+}
+
+.bZerar {
+  margin-top: 10px;
+}
